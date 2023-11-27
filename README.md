@@ -1,2 +1,2 @@
-# designpatterns
-Design Pattern Revision
+# Design Patterns
+Design Pattern revision
