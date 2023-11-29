@@ -20,14 +20,25 @@ Design Pattern revision
 * Singleton             [X]
 
 # Code Smells
-* Duplicated Code
-* Poor abstraction (Change one place -> must change others)
-* Large loop, method, class, parameter list; deeply nested loop
-* Class has too little cohesion
-* Modules have too much coupling
-* Class has poor encapsulation
-* Subclass doesn't use majority of iunherited functionalities
-* A "data class" has little functionality
-* Dead code
-* Design is unncessarily general
-* Design is too specific
+## Bloaters
+* Long Method
+* Primitive Obsession
+* Data Clumps
+* Large Class
+* Long Parameter List
+## OO Abusers
+* Alternative classes with different interfaces
+* Refused Bequest
+* Switch Statements
+* Temporary Field
+## Change Preventers
+* Divergent Change
+* Parallel Inheritance Hierarchies
+* Shotgun Surgery
+## Dispensables
+* Comments
+* Duplicate Code
+* Data Class
+* Dead Code
+* Lazy Class
+* Speculative Generality
