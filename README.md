@@ -14,8 +14,8 @@ Design Pattern revision
 * Composite Pattern     [X]
 * Decorator Pattern     []
 ## Creational Pattern
-* Factory Method        []
-* Abstract Factory      []
+* Factory Method        [X]
+* Abstract Factory      [X]
 * Builder               []
 * Singleton             []
 
