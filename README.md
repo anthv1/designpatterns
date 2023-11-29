@@ -6,7 +6,7 @@ Design Pattern revision
 * State Pattern         [X]
 * Observer Pattern      [X]
 * Iterator Pattern      []
-* Template Pattern      []
+* Template Pattern      [X]
 * Visitor Pattern       []
 
 ## Structural Pattern
