@@ -1,5 +1,9 @@
 # Factory Method
 * Provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created.
+
+* Increase flexibility and reuse of existing code
+* Reduce coupling and shotgun surgery, as all classes are created using the same methods.
+
 ## Problem & Solution
 * Creating an object direcly within the class that requires the object is inflexible
 * Define a separate operation (factory method) for creating an object.
