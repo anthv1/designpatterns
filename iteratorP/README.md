@@ -27,16 +27,17 @@ Initial Solution - a method in the interface
 5. Client works with both colelctions and iterators via their interfaces. This way the client isn't coupled to concrete classes, allowing you to use various collections and iterators with the same client code.
 
 ```java
-/*
+/**********************
     Iterator Interface
-*/
+***********************/
 public interface iteratorI {
     public Item getNext();
     public boolean hasMore();
 }
-/*
+
+/***********************
     Concrete Iterator classes
-*/ 
+***********************/ 
 public class ListIterator1 implements iteratorI {
     // Define collection
     private ListCollection lc;
@@ -53,20 +54,22 @@ public class ListIterator1 implements iteratorI {
     public boolean hasMore() {...}
     // ...
 }
+
 public class ListIterator2 implements iteratorI {
     // ... similar as above, just different algorithm
 }
-/*
+
+/***********************
     Collection Interface
-*/
+***********************/
 public interface collectionI {
     public IteratorI createIterator1();
     public IteratorI createIterator2();
 }
 
-/*
+/***********************
     Concrete Collection class
-*/
+***********************/
 public class ListCollection implements collectionI {
     // ...
 
