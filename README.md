@@ -12,12 +12,12 @@ Design Pattern revision
 ## Structural Pattern
 * Adapter Pattern       []
 * Composite Pattern     [X]
-* Decorator Pattern     []
+* Decorator Pattern     [X]
 ## Creational Pattern
 * Factory Method        [X]
 * Abstract Factory      [X]
 * Builder               []
-* Singleton             []
+* Singleton             [X]
 
 # Code Smells
 * Duplicated Code
