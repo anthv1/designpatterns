@@ -16,7 +16,29 @@ public interface ViewingState {
 ```
 2. Implement a State class for every state of the system. these classes will be responsible for the behavior of the machine when it is in the corresponding state.
 3. Delegate the State class to do the work.
+4. When implementing states to the system, system must refer itself for it to work.
+```java
+//Client code
+public class Client {
+    private State state = new DefaultState(this);
+    //...
+}
 
+// State code
+public class DefaultState implements StateInterface {
+    private Client c;
+    // refer to client object.
+    public DefaultState(Client c) {
+        this.c = c;
+    }
+    //...
+    //when changing states, repeat similar steps
+    public void onState2() {
+        c.setState(new StateTwo(c));
+        //...
+    }
+}
+```
 The structure is very similar to Strategy Pattern, the only difference is that the for Strategy, context/client changes the behaviour via different strategies.
 
 For state, the client's behaviour is depended on its internal state.

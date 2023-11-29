@@ -18,3 +18,16 @@ Design Pattern revision
 * Abstract Factory      []
 * Builder               []
 * Singleton             []
+
+# Code Smells
+* Duplicated Code
+* Poor abstraction (Change one place -> must change others)
+* Large loop, method, class, parameter list; deeply nested loop
+* Class has too little cohesion
+* Modules have too much coupling
+* Class has poor encapsulation
+* Subclass doesn't use majority of iunherited functionalities
+* A "data class" has little functionality
+* Dead code
+* Design is unncessarily general
+* Design is too specific
