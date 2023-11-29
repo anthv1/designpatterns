@@ -11,7 +11,7 @@ Design Pattern revision
 
 ## Structural Pattern
 * Adapter Pattern       []
-* Composite Pattern     []
+* Composite Pattern     [X]
 * Decorator Pattern     []
 ## Creational Pattern
 * Factory Method        []
